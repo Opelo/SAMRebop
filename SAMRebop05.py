@@ -14,6 +14,8 @@
 ## 4/24 2 hours - paper
 ## 4/26 4 hours - Big breakthrough with breeding. 
 
+
+
 ### The import random here allows the program to bring in a random choice tool
 import random
 
@@ -73,7 +75,9 @@ for x in range (cycles):
     for i in range (pgen_pop):
         print ("f" + str(x+1) + " Rebop " + str(i+1)+ " genome:  " + str(rebop_geno [x*pgen_alleles+10*i:x*pgen_alleles+10*(i+1):1]))
 
-
+### Attempt to keep program results readable in window by delaying the actual end of the program using an input request.
+print("There are the results! Hit enter to end program.")
+last_words = (input(""))
 
 
 
